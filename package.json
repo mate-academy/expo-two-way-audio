@@ -1,6 +1,6 @@
 {
-  "name": "@speechmatics/expo-two-way-audio",
-  "version": "0.1.2",
+  "name": "@mate-academy/expo-two-way-audio",
+  "version": "0.1.3",
   "description": "Native module for two way audio streaming",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -22,6 +22,10 @@
   "repository": "https://github.com/speechmatics/expo-two-way-audio",
   "bugs": {
     "url": "https://github.com/speechmatics/expo-two-way-audio/issues"
+  },
+  "private": true,
+  "publishConfig": {
+    "access": "restricted"
   },
   "author": "Speechmatics <devrel@speechmatics.com> (https://github.com/speechmatics)",
   "license": "MIT",
